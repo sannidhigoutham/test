@@ -31,6 +31,8 @@ import Footer from './Components/Footer';
 import Project from './Components/Project';
 import Cricket from './Components/Cricket';
 import Cricketdata from './Components/cricketdata';
+import Asvi from './Components/asvi';
+
 
 
 
@@ -68,6 +70,8 @@ function App() {
     <Route  path='Project' element={<Project />}></Route>
     <Route  path='cricket' element={<Cricket />}></Route>
     <Route  path='cricketdata' element={<Cricketdata />}></Route>
+    <Route  path='Asvi' element={<Asvi />}></Route>
+
 
 
 
